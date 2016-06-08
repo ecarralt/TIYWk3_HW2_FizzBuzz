@@ -1,5 +1,3 @@
-
-
 (1..100).each do |n|
   if n%3==0 && n%5==0
     print "FizzBuzz"
@@ -14,7 +12,8 @@ end
 
 
 
-### Below code remains from an attempt using classes (it wuold have to be wrapped within a class)
+### Below code remains from an attempt using classes (inappropriately as there are no methods called)
+# (code wuold have to be wrapped within a class to work)
 
 
   # while @count <= 100
